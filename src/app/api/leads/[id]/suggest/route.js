@@ -53,14 +53,14 @@ Lead Details:
 
 Provide 3 specific, actionable follow-up suggestions for this lead. Be concise and practical. Format as a JSON array of strings.`;
 
-      const response = await fetch('https://api.openai.com/v1/chat/completions', {
-        method: 'POST',
-        headers: {
-          'Content-Type': 'application/json',
-          Authorization: `Bearer ${process.env.OPENAI_API_KEY}`,
-        },
-        body: JSON.stringify({
-          model: 'gpt-3.5-turbo',
+      const response = await fetch('https://api.x.ai/v1/chat/completions', {
+  method: 'POST',
+  headers: {
+    'Content-Type': 'application/json',
+    Authorization: `Bearer ${process.env.OPENAI_API_KEY}`,
+  },
+  body: JSON.stringify({
+    model: 'grok-3-mini',
           messages: [{ role: 'user', content: prompt }],
           max_tokens: 400,
           temperature: 0.7,
