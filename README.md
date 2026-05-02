@@ -2,6 +2,8 @@
 
 A full-stack CRM system built for property dealers in Pakistan. Built with Next.js 14, MongoDB, NextAuth, Socket.io, and Tailwind CSS.
 
+**🌐 Live Demo:** [https://property-crm-web.vercel.app/](https://property-crm-web.vercel.app/)
+
 ---
 
 ## 🚀 Tech Stack
